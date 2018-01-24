@@ -1,0 +1,123 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#header{
+	padding: 10px;
+	margin: 10px;
+	height: 40px;
+	background-color: white;
+}
+h1{
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+	line-height: 30px;
+}
+#header h2{
+	display: inline-block;
+	text-align: center;
+	margin-left: 385px;
+}
+#main{
+	width: 970px;
+	height: 930px;
+	background: linear-gradient(black, grey, black);
+	padding: 10px;
+}
+#upper{
+	width: 950px;
+	display: inline-block;
+	margin: auto;
+}
+#photo{
+	height: 280px;
+	background-image: url(Portfolio_images/photo_of_me.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 47%;
+	border: 5px solid #c0c0c0;
+	margin: 10px;
+	display: inline-block;
+}
+#aboutme{
+	height: 290px;
+	width: 47%;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+	background: linear-gradient(90deg, white, #d0c1ce);
+}
+#aboutme h2{
+	background: linear-gradient(#b2b2b6, #878593, #b2b2b6);
+	color: white;
+}
+#aboutme h2, p, a{
+	padding: 7px;
+}
+#lower{
+	height: 440px;
+	width: 950px;
+}
+.project{
+	height: 400px;
+	width: 294px;
+	margin: 10px 10px 0px 10px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+	background: linear-gradient(90deg, white, #d0c1ce);
+}
+.project h2{
+	background: linear-gradient(#b2b2b6, #878593, #b2b2b6);
+	padding: 7px;
+	color: white;
+}
+.projimage{
+	width: 294px;
+}
+.technologies{
+	height: 200px;
+	width: 294px;
+	margin: 0px 10px 10px 10px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	background: linear-gradient(90deg, white, #d0c1ce);
+}
+.technologies h3{
+	background: linear-gradient(#b2b2b6, #878593, #b2b2b6);
+	padding: 7px;
+	color: white;
+}
+.techicon{
+	height: 50px;
+	width: 50px;
+}
+.technologies h4{
+	background-color: #407d61;
+	color: white;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px;
+	box-shadow: 2px 2px 5px grey;
+	border-radius: 10px;
+}
+#footer{
+	padding: 5px;
+	margin: 5px;
+	height: 40px;
+	text-align: center;
+	background-color: white;
+}
+#footer p, .table{
+	margin: 5px;
+}
+.table{
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact{
+	height: 12px;
+	width: 12px;
+}
